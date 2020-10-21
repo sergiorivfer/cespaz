@@ -1,0 +1,92 @@
+<footer class="footer">
+  <a href="#" id="scroll" style="display: none">
+    <span></span>
+  </a>
+  <iframe
+    width="100%"
+    height="400"
+    frameborder="0"
+    scrolling="no"
+    marginheight="0"
+    marginwidth="0"
+    src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=es&amp;q=cra%205%20bis%20numero%2041b%20-%2020,%20pereira,%20risaralda+(CesPaz)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+  ></iframe>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3" style="margin: 3rem 0">
+        <div>
+          <h3>Contactanos</h3>
+        </div>
+        <ul>
+          <li>Cra 5 Bis No 41 B - 20.</li>
+          <li>Barrio Getsemaní, Pereira.</li>
+          <li>cespazrda@gmail.com</li>
+          <li>(+57) 315 867 37 04</li>
+        </ul>
+      </div>
+      <div class="col-md-3" style="margin: 3rem 0">
+        <div>
+          <h3>Nosotros</h3>
+        </div>
+        <ul>
+          <li>
+            <a [routerLink]="['/memoria']" [routerLinkActive]="['active']">
+              Memoria
+            </a>
+          </li>
+          <li>
+            <a [routerLink]="['/acerca']" [routerLinkActive]="['active']">
+              Quienes Somos
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-3" style="margin: 3rem 0">
+        <div>
+          <h3>Servicios</h3>
+        </div>
+        <ul>
+          <li>
+            <a [routerLink]="['/paz-colombia']" [routerLinkActive]="['active']">
+              Paz en Colombia
+            </a>
+          </li>
+          <li>
+            <a [routerLink]="['/festivales']" [routerLinkActive]="['active']">
+              Festivales
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-3" style="margin: 3rem 0">
+        <div>
+          <h3>Siguenos</h3>
+        </div>
+
+        <a href=""><i class="fa fa-facebook icon-footer"></i></a>
+
+        <a href=""><i class="fa fa-twitter icon-footer"></i></a>
+
+        <a href=""><i class="fa fa-instagram icon-footer"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row" style="border-top: 1px #00000026 solid">
+      <nav class="footer-nav">
+        <ul>
+          <li><a href="">Team Cubit</a></li>
+          <li><a href="">Our Work</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="credits ml-auto">
+        <span class="copyright">
+          © {{ test | date: "yyyy" }}, made with
+          <i class="fa fa-heart heart"></i> & <i class="fa fa-coffee"></i> by
+          Team Cubit
+        </span>
+      </div>
+    </div>
+  </div>
+</footer>

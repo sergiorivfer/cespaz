@@ -1,0 +1,92 @@
+// Mixin for generating new styles
+@mixin btn-styles($btn-color, $btn-states-color) {
+    background: linear-gradient(45deg, #14d66f, #39bee3);
+    border-color: transparent;
+    color: $white-color;
+    @include opacity(1);
+
+    &:hover,
+    &:focus,
+    &:active,
+    &.active,
+    .show>&.dropdown-toggle {
+        background: linear-gradient(0deg, #14d66f, #39bee3);
+        color: $white-color;
+        border-color: transparent;
+    }
+
+    .caret {
+        border-top-color: $white-color;
+    }
+
+    &.btn-link {
+        color: $btn-color;
+
+        &:hover,
+        &:focus,
+        &:active,
+        &.active,
+        .open>&.dropdown-toggle {
+            background-color: #14d66f;
+            color: #fff;
+        }
+
+        .caret {
+            border-top-color: $btn-color;
+        }
+    }
+
+    .caret {
+        border-top-color: $white-color;
+    }
+}
+
+@mixin btn-outline-styles($btn-color, $btn-states-color) {
+    border-color: $btn-color;
+    color: $btn-color;
+    @include opacity(1);
+
+    &:hover,
+    &:focus,
+    &:active,
+    &.active,
+    .open>&.dropdown-toggle {
+        background-color: $btn-color;
+        color: $fill-font-color;
+        border-color: $btn-color;
+
+        .caret {
+            border-top-color: $fill-font-color;
+        }
+    }
+
+    .caret {
+        border-top-color: $white-color;
+    }
+
+    &.disabled,
+    &:disabled,
+    &[disabled],
+    fieldset[disabled] & {
+
+        &,
+        &:hover,
+        &:focus,
+        &.focus,
+        &:active,
+        &.active {
+            background-color: #14d66f;
+            border-color: $btn-color;
+        }
+    }
+}
+
+@mixin btn-size($padding-vertical, $padding-horizontal, $font-size, $line-height) {
+    font-size: $font-size;
+    padding: $padding-vertical $padding-horizontal;
+
+    &.btn-simple {
+        padding: $padding-vertical + 2 $padding-horizontal;
+    }
+
+}

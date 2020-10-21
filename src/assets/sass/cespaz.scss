@@ -1,0 +1,76 @@
+@media screen and (prefers-reduced-motion: no-preference) {
+    html,
+    body {
+      scroll-behavior: smooth;
+    }
+  }
+
+  /* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(0, 0, 0);
+    border-radius: 10px;
+    background: rgb(83, 83, 83);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, #14d66f, #39bee3);
+    border-radius: 10px;
+
+    &:hover, &:active{
+        background: #14d66f;
+    }
+  }
+
+  ::-webkit-scrollbar-track-piece,::-webkit-scrollbar-corner{
+      background: transparent;
+  }
+
+@import '~animate.css/animate.min';
+@import "~animate.css/animate.css";
+
+@import "cespaz/variables";
+@import "cespaz/mixins";
+
+@import "cespaz/typography";
+
+// Core CSS
+@import "cespaz/misc";
+@import "cespaz/buttons";
+@import "cespaz/inputs";
+@import "cespaz/progress-bars";
+@import "cespaz/sliders";
+@import "cespaz/alerts";
+@import "cespaz/labels";
+@import "cespaz/tooltips-and-popovers";
+@import "cespaz/sections";
+@import "cespaz/checkbox-radio";
+@import "cespaz/navbars";
+@import "cespaz/images";
+@import "cespaz/cards";
+@import "cespaz/footers";
+
+
+// Bootstrap Switch
+@import "cespaz/bootstrap-switch";
+
+// Fancy Stuff
+@import "cespaz/dropdown";
+//
+// icons
+@import "cespaz/icons";
+//
+@import "cespaz/tabs-navs-pagination";
+@import "cespaz/collapse";
+@import "cespaz/carousel";
+@import "cespaz/modal";
+//
+@import "cespaz/responsive";
+@import "cespaz/plugins/datetimepicker";
+@import "cespaz/social-buttons";
+@import "cespaz/pages";

@@ -1,0 +1,668 @@
+<div class="wrapper">
+  <div
+    class="page-header section-dark"
+    style="background-image: url(https://i.imgur.com/LgI2U7M.jpg)"
+  >
+    <div class="content-center" style="z-index: 10">
+      <div class="container">
+        <h1
+          class="presentation-title text-center wow zoomIn"
+          data-wow-delay="0.5s"
+        >
+          Centro de Estudios e Investigaciones por la Paz
+        </h1>
+        <span class="main-txt wow zoomIn" data-wow-delay="1.5s"
+          >Los jóvenes y futuras generaciones queremos dejar atrás la guerra y
+          ante ella nuestra respuesta es la vida.</span
+        >
+        <a
+          [routerLink]="['/acerca']"
+          class="btn btn-link btn-default btn-round wow zoomIn"
+          data-wow-delay="2.5s"
+          id="btn-main"
+          >Conocer más
+        </a>
+      </div>
+    </div>
+    <div class="filter"></div>
+    <div
+      class="moving-clouds"
+      style="background-image: url('assets/img/clouds.png')"
+    ></div>
+  </div>
+</div>
+
+<div class="main">
+  <app-basicelements></app-basicelements>
+</div>
+<div class="section javascript-components">
+  <div class="container">
+    <div class="tim-title wow fadeInDown" data-wow-delay="0.5s">
+      <h2>Memorias & Festivales Realizados</h2>
+    </div>
+    <div class="row" id="modals">
+      <div class="col-md-6 wow fadeInLeft" data-wow-delay="1s">
+        <div class="tim-title">
+          <h3>Obras Sociales</h3>
+        </div>
+        <app-modal-component></app-modal-component>
+      </div>
+      <div class="col-md-6 wow fadeInRight" data-wow-delay="1s">
+        <div class="tim-title">
+          <h3>Encuentros con la Comunidad</h3>
+        </div>
+
+        <div class="card page-carousel">
+          <ngb-carousel>
+            <ng-template ngbSlide>
+              <img
+                src="./assets/img/festival13.jpg"
+                alt="Sexto Festival Departamental de Artistas por la Paz"
+              />
+              <div class="carousel-caption">
+                <p>Sexto Festival Departamental de Artistas por la Paz</p>
+              </div>
+            </ng-template>
+            <ng-template ngbSlide>
+              <img
+                src="./assets/img/Vfestival .webp"
+                alt="Quinto Festival Departamental de Artistas por la Paz"
+              />
+              <div class="carousel-caption">
+                <p>Quinto Festival Departamental de Artistas por la Paz</p>
+              </div>
+            </ng-template>
+            <ng-template ngbSlide>
+              <img
+                src="./assets/img/festival3.jpg"
+                alt="Cuarto Festival Departamental de Artistas por la Paz"
+              />
+              <div class="carousel-caption">
+                <p>Cuarto Festival Departamental de Artistas por la Paz</p>
+              </div>
+            </ng-template>
+            <ng-template ngbSlide>
+              <img
+                src="./assets/img/festival6.jpg"
+                alt="Tercer Festival Departamental de Artistas por la Paz"
+              />
+              <div class="carousel-caption">
+                <p>Tercer Festival Departamental de Artistas por la Paz</p>
+              </div>
+            </ng-template>
+            <ng-template ngbSlide>
+              <img
+                src="./assets/img/festival9.jpg"
+                alt="Segundo Festival Departamental de Artistas por la Paz"
+              />
+              <div class="carousel-caption">
+                <p>Segundo Festival Departamental de Artistas por la Paz</p>
+              </div>
+            </ng-template>
+            <ng-template ngbSlide>
+              <img
+                src="./assets/img/festival10.jpg"
+                alt="Primer Festival Departamental de Artistas por la Paz"
+              />
+              <div class="carousel-caption">
+                <p>Primer Festival Departamental de Artistas por la Paz</p>
+              </div>
+            </ng-template>
+          </ngb-carousel>
+        </div>
+      </div>
+      <br />
+    </div>
+  </div>
+  <!---------------------------------------------------->
+
+  <div class="section">
+    <div class="container text-center">
+      <div class="row">
+        <div
+          class="col-md-8 mr-auto ml-auto wow fadeInDown"
+          data-wow-delay="0.5s"
+        >
+          <h2 class="title">Paz en Colombia.</h2>
+          <h5 class="description">
+            Hoy ante un panorama no muy alentador para aquellos que realizan
+            esfuerzos en pro de la paz, se hace mas vigente nuestro reclamo: Los
+            jóvenes y futuras generación queremos dejar atrás la guerra y ante
+            ella nuestra respuesta es la vida.
+          </h5>
+          <br />
+          <a
+            [routerLink]="['/paz-colombia']"
+            class="btn btn-link btn-default btn-round"
+            >Ver más Detalles</a
+          >
+        </div>
+      </div>
+
+      <div class="gallery">
+        <div class="gallery-item wow fadeInLeft" data-wow-delay="1.5s">
+          <img
+            class="gallery-image"
+            src="../../assets/img/paz en colombia galeria/paz1.jpg"
+            alt=""
+          />
+        </div>
+
+        <div class="gallery-item wow fadeInUp" data-wow-delay="1.5s">
+          <img
+            class="gallery-image"
+            src="../../assets/img/paz en colombia galeria/paz2.jpg"
+            alt=""
+          />
+        </div>
+
+        <div class="gallery-item wow fadeInRight" data-wow-delay="1.5s">
+          <img
+            class="gallery-image"
+            src="../../assets/img/paz en colombia galeria/paz3.jpg"
+            alt=""
+          />
+        </div>
+        <div class="gallery-item wow fadeInLeft" data-wow-delay="1.5s">
+          <img
+            class="gallery-image"
+            src="../../assets/img/paz en colombia galeria/paz4.jpg"
+            alt=""
+          />
+        </div>
+
+        <div class="gallery-item wow fadeInUp" data-wow-delay="1.5s">
+          <img
+            class="gallery-image"
+            src="../../assets/img/paz en colombia galeria/paz5.jpg"
+            alt=""
+          />
+        </div>
+
+        <div class="gallery-item wow fadeInRight" data-wow-delay="1.5s">
+          <img
+            class="gallery-image"
+            src="../../assets/img/paz en colombia galeria/paz6.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <div class="section section-dark section-nucleo-icons">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12">
+            <h2 class="title wow fadeInLeft" data-wow-delay="0.5s">
+              Aportes en Investigación.
+            </h2>
+            <br />
+            <p class="description wow fadeInLeft" data-wow-delay="1s">
+              <strong
+                >Desarrollar, impulsar e implementar proyectos y actividades
+                investigativas</strong
+              >, académicas, comunitarias, productivas, cívicas, culturales,
+              deportivas, educativas, científicas, tecnológicas, formativas y
+              ecológicas, en asocio con las organizaciones sociales,
+              organizaciones no gubernamentales, con entidades públicas,
+              entidades del sector privado, nacionales e internacionales.
+            </p>
+            <br />
+            <a
+              [routerLink]="['/memoria']"
+              class="btn btn-link btn-default btn-round wow fadeInLeft"
+              data-wow-delay="1.5s"
+              >Leer más</a
+            >
+          </div>
+
+          <div class="col-lg-6 col-md-12">
+            <div class="icons-container wow zoomIn" data-wow-delay="2.5s">
+              <i class="nc-icon nc-time-alarm"></i>
+              <i class="nc-icon nc-atom"></i>
+              <i class="nc-icon nc-camera-compact"></i>
+              <i class="nc-icon nc-watch-time"></i>
+              <i class="nc-icon nc-key-25"></i>
+              <i class="nc-icon nc-bulb-63"></i>
+              <i class="nc-icon nc-user-run"></i>
+              <i class="nc-icon nc-layout-11"></i>
+              <i class="nc-icon nc-badge"></i>
+              <i class="nc-icon nc-bulb-63"></i>
+              <i class="nc-icon nc-favourite-28"></i>
+              <i class="nc-icon nc-planet"></i>
+              <i class="nc-icon nc-tie-bow"></i>
+              <i class="nc-icon nc-zoom-split"></i>
+              <i class="nc-icon nc-cloud-download-93"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section section-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 ml-auto mr-auto text-center">
+            <h2 class="title wow fadeInLeft" data-wow-delay="0.5s">
+              Nuestra Revista Literaria.
+            </h2>
+            <p class="description wow fadeInLeft" data-wow-delay="1s">
+              Queremos incentivar, a través de la recuperación de la memoria
+              histórica y el fortalecimiento del tejido social, la consolidación
+              de la solución política al conflicto social y armado y por ende al
+              establecimiento de una paz duradera. Entendiendo que la paz no es
+              solo el fin de la confrontación armada, sino un proceso de largo
+              aliento de superación de las desigualdades, sociales, económicas y
+              políticas.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="section section-image section-login"
+      style="background-image: url('assets/img/login-image.jpg')"
+    >
+      <div class="container wow bounceInDown" data-wow-delay="1.5s">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12 ml-auto mr-auto">
+            <h3 class="title">Ultima Edición.</h3>
+            <div class="card">
+              <img
+                src="https://i.imgur.com/t6M90xy.jpg"
+                alt=""
+                class="img-rounded img-responsive"
+                style="width: 400px; height: 500px"
+              />
+            </div>
+            <div class="col text-center" routerLinkActive="active">
+              <a
+                target="_blank"
+                href="https://equinoccioliterario.com/#/sexta-edicion"
+                class="btn btn-link btn-default btn-round"
+                >Ver Ultima Edicion</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section section-dark">
+      <div class="container">
+        <div class="row example-page">
+          <div
+            class="col-md-6 text-center wow bounceInDown"
+            data-wow-delay="1.5s"
+            routerLinkActive="active"
+          >
+            <a
+              target="_blank"
+              href="https://equinoccioliterario.com/#/cuarta-edicion"
+            >
+              <img
+                src="https://i.imgur.com/Sr8qmfX.png"
+                alt="Rounded Image"
+                class="img-rounded img-responsive"
+                style="width: 65%"
+              />
+              <a
+                target="_blank"
+                href="https://equinoccioliterario.com/#/cuarta-edicion"
+                class="btn btn-link btn-default btn-round"
+                >Ver Edición</a
+              >
+            </a>
+          </div>
+
+          <div
+            class="col-md-6 text-center wow bounceInDown"
+            data-wow-delay="1.5s"
+            routerLinkActive="active"
+          >
+            <a
+              target="_blank"
+              href="https://equinoccioliterario.com/#/quinta-edicion"
+            >
+              <img
+                src="https://i.imgur.com/bGsVjPC.png"
+                alt="Rounded Image"
+                class="img-rounded img-responsive"
+                style="width: 65%"
+              />
+              <a
+                target="_blank"
+                href="https://equinoccioliterario.com/#/quinta-edicion"
+                class="btn btn-link btn-default btn-round"
+                >Ver Edición</a
+              >
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--
+    <div class="section" id="carousel">
+      <div class="container text-center">
+        <div class="tim-title">
+          <h2>Noticias</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-12 mr-auto ml-auto" style="margin-top: 40px">
+            <div class="page-carousel">
+              <ngb-carousel>
+                <ng-template ngbSlide>
+                  <div class="row">
+                    <div class="col-md-3">
+                      <div class="info">
+                        <div class="icon icon-danger">
+                          <i class="nc-icon nc-album-2"></i>
+                        </div>
+                        <div class="description">
+                          <h4 class="info-title"></h4>
+                          <p class="description">
+                            Spend your time generating new ideas. You don't have
+                            to think of implementing.
+                          </p>
+                          <a
+                            href="#pkp"
+                            class="btn btn-link btn-default btn-round"
+                            >Ver más</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="info">
+                        <div class="icon icon-danger">
+                          <i class="nc-icon nc-bulb-63"></i>
+                        </div>
+                        <div class="description">
+                          <h4 class="info-title">Nuevas Ideas</h4>
+                          <p>
+                            Larger, yet dramatically thinner. More powerful, but
+                            remarkably power efficient.
+                          </p>
+                          <a
+                            href="#pkp"
+                            class="btn btn-link btn-default btn-round"
+                            >Ver más</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="info">
+                        <div class="icon icon-danger">
+                          <i class="nc-icon nc-chart-bar-32"></i>
+                        </div>
+                        <div class="description">
+                          <h4 class="info-title">Estadistícas</h4>
+                          <p>
+                            Choose from a veriety of many colors resembling
+                            sugar paper pastels.
+                          </p>
+                          <a
+                            href="#pkp"
+                            class="btn btn-link btn-default btn-round"
+                            >Ver más</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="info">
+                        <div class="icon icon-danger">
+                          <i class="nc-icon nc-sun-fog-29"></i>
+                        </div>
+                        <div class="description">
+                          <h4 class="info-title">Contextos de Paz</h4>
+                          <p>
+                            Find unique and handmade delightful designs related
+                            items directly from our sellers.
+                          </p>
+                          <a
+                            href="#pkp"
+                            class="btn btn-link btn-default btn-round"
+                            >Ver más</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </ng-template>
+                <ng-template ngbSlide>
+                  <div class="row">
+                    <div class="col-md-3">
+                      <div class="info">
+                        <div class="icon icon-danger">
+                          <i class="nc-icon nc-bulb-63"></i>
+                        </div>
+                        <div class="description">
+                          <h4 class="info-title">Nuevas Ideas</h4>
+                          <p>
+                            Larger, yet dramatically thinner. More powerful, but
+                            remarkably power efficient.
+                          </p>
+                          <a
+                            href="#pkp"
+                            class="btn btn-link btn-default btn-round"
+                            >Ver más</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="info">
+                        <div class="icon icon-danger">
+                          <i class="nc-icon nc-chart-bar-32"></i>
+                        </div>
+                        <div class="description">
+                          <h4 class="info-title">Estadistícas</h4>
+                          <p>
+                            Choose from a veriety of many colors resembling
+                            sugar paper pastels.
+                          </p>
+                          <a
+                            href="#pkp"
+                            class="btn btn-link btn-default btn-round"
+                            >Ver más</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="info">
+                        <div class="icon icon-danger">
+                          <i class="nc-icon nc-sun-fog-29"></i>
+                        </div>
+                        <div class="description">
+                          <h4 class="info-title">Contextos de Paz</h4>
+                          <p>
+                            Find unique and handmade delightful designs related
+                            items directly from our sellers.
+                          </p>
+                          <a
+                            href="#pkp"
+                            class="btn btn-link btn-default btn-round"
+                            >Ver más</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="info">
+                        <div class="icon icon-danger">
+                          <i class="nc-icon nc-glasses-2"></i>
+                        </div>
+                        <div class="description">
+                          <h4 class="info-title">Grupo de Estudio</h4>
+                          <p class="description">
+                            Spend your time generating new ideas. You don't have
+                            to think of implementing.
+                          </p>
+                          <a
+                            href="#pkp"
+                            class="btn btn-link btn-default btn-round"
+                            >Ver más</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </ng-template>
+                <ng-template ngbSlide>
+                  <div class="row">
+                    <div class="col-md-3">
+                      <div class="info">
+                        <div class="icon icon-danger">
+                          <i class="nc-icon nc-chart-bar-32"></i>
+                        </div>
+                        <div class="description">
+                          <h4 class="info-title">Estadistícas</h4>
+                          <p>
+                            Choose from a veriety of many colors resembling
+                            sugar paper pastels.
+                          </p>
+                          <a
+                            href="#pkp"
+                            class="btn btn-link btn-default btn-round"
+                            >Ver más</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="info">
+                        <div class="icon icon-danger">
+                          <i class="nc-icon nc-sun-fog-29"></i>
+                        </div>
+                        <div class="description">
+                          <h4 class="info-title">Contextos de Paz</h4>
+                          <p>
+                            Find unique and handmade delightful designs related
+                            items directly from our sellers.
+                          </p>
+                          <a
+                            href="#pkp"
+                            class="btn btn-link btn-default btn-round"
+                            >Ver más</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="info">
+                        <div class="icon icon-danger">
+                          <i class="nc-icon nc-glasses-2"></i>
+                        </div>
+                        <div class="description">
+                          <h4 class="info-title">Grupo de Estudio</h4>
+                          <p class="description">
+                            Spend your time generating new ideas. You don't have
+                            to think of implementing.
+                          </p>
+                          <a
+                            href="#pkp"
+                            class="btn btn-link btn-default btn-round"
+                            >Ver más</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="info">
+                        <div class="icon icon-danger">
+                          <i class="nc-icon nc-paper"></i>
+                        </div>
+                        <div class="description">
+                          <h4 class="info-title">Lectura de Poesía.</h4>
+                          <p>
+                            Larger, yet dramatically thinner. More powerful, but
+                            remarkably power efficient.
+                          </p>
+                          <a
+                            href="#pkp"
+                            class="btn btn-link btn-default btn-round"
+                            >Ver más</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </ng-template>
+              </ngb-carousel>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+-->
+    <div class="section" id="carousel">
+      <div class="container text-center">
+        <div class="tim-title wow fadeInDown" data-wow-delay="0.5s">
+          <h2>Nuestros aliados</h2>
+        </div>
+        <div
+          class="row wow fadeInUp"
+          data-wow-delay="0.5s"
+          style="margin-top: 20px; align-items: center"
+        >
+          <div class="col-md-2">
+            <a href="https://coopediaoes.com/" target="_blank"
+              ><img
+                src="../../assets/img/logos/coopedia.png"
+                alt=""
+                class="img-logo grayscale"
+            /></a>
+          </div>
+          <div class="col-md-2">
+            <a
+              href="https://www.facebook.com/watch/Gestudio2.96/"
+              target="_blank"
+              ><img
+                src="../../assets/img/logos/grupo296.png"
+                alt=""
+                class="img-logo grayscale"
+            /></a>
+          </div>
+          <div class="col-md-2">
+            <a
+              href="http://sindicatodeeducadoresderisaralda.com.co/"
+              target="_blank"
+              ><img
+                src="../../assets/img/logos/logoser.png"
+                alt=""
+                class="img-logo grayscale"
+            /></a>
+          </div>
+          <div class="col-md-2">
+            <a href="https://prensarural.org/spip/" target="_blank">
+              <img
+                src="../../assets/img/logos/prensarural.jpg"
+                alt=""
+                class="img-logo grayscale"
+              />
+            </a>
+          </div>
+          <div class="col-md-2">
+            <a href="https://www.elteatrovive.com/" target="_blank"
+              ><img
+                src="../../assets/img/logos/teatro.jpg"
+                alt=""
+                class="img-logo grayscale"
+            /></a>
+          </div>
+          <div class="col-md-2">
+            <a
+              href="https://www.facebook.com/FedearpazRisaralda"
+              target="_blank"
+              ><img
+                src="../../assets/img/logos/federpaz.jpg"
+                alt=""
+                class="img-logo grayscale"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
